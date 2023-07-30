@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+body {
+  background: wheat;
+  color: #2e2e2e;
+  font-family: Merriweather;
+  font-weight: bold;
+  .App {
+    .main-title {
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: 30px;
+    }
+    .main-block {
+      margin-top: 20vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+  }
+}
+
+.error {
+  border: 2px solid red;
+}
